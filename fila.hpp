@@ -1,7 +1,10 @@
+#include<iostream>
 #ifndef FILA_HPP
 #define FILA_HPP
 
-#define MAX 5
+#define MAX 6
+
+using namespace std;
 
 template <typename T>
 class Fila{
@@ -28,11 +31,17 @@ public:
         if (i==f)
             return false;
 
-        //T temp = v[i]; // Da pra deixar assim mas aí precisa trocar no if ali por "... = temp;"
-        if(desenfileirado)
+        if(desenfileirado) {
             *desenfileirado = v[i];
+        }
         i = (i+1)%n;
         return true;
+    }
+
+    void imprime(){
+        for(int k = i; k!=f; k=(k+1)%n){
+            cout << v[k] << endl;
+        }
     }
 
 };

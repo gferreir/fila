@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/gferreir/Projects/CLionProjects/Fila/fila.hpp
+iostream
+-
 
 /home/gferreir/Projects/CLionProjects/Fila/main.cpp
 iostream

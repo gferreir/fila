@@ -14,9 +14,13 @@ int main(){
     f.desenfileira();
     f.desenfileira();
 
+    f.imprime();
+
+    /*
     int temp;
     while(f.desenfileira(&temp)){
         cout << temp << endl;
     }
+    */
     return 0;
 }
