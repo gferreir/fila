@@ -10,6 +10,7 @@ int main(){
     f.enfileira(9);
     f.enfileira(3);
     f.enfileira(7);
+    f.enfileira(11);
     f.desenfileira();
     f.desenfileira();
 
